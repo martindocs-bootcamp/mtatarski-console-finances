@@ -1,0 +1,87 @@
+:root {
+  --green-color: #009879;
+  --red-color: #870000;
+  --red-light-color: #b33232;
+  --white-color: #ffffff;
+  --grey-color: #f3f3f3;
+  --balck-color: #000000;
+}
+
+/* center the content */
+.container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+/* BUTTON */
+.btn {
+  font-family: sans-serif;
+  background: var(--red-color);
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--white-color);  
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: var(--red-light-color);
+  color: var(--white-color);
+}
+
+/* hide on browser load the financial statement */
+#code-content {
+  display: none;
+}
+
+/* CONTENT */
+.code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.code-text {
+  font-size: 2rem;
+  margin: 10px;
+}
+
+/* TABLE */
+.table {
+  margin-top: 10px;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden ;
+}
+
+.table thead tr {
+  background-color: var(--green-color);
+  color: var(--white-color);
+  text-align: center;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: var(--grey-color);
+}
+
+.table-left-corner {
+  border-bottom-left-radius: 10px;  
+}
+
+.table-right-corner {
+  border-bottom-right-radius: 10px;  
+}
