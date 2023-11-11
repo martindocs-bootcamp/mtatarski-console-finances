@@ -66,3 +66,35 @@ console.log(output);
 
 
 // PART.2. Display calculation in the browser
+const code = document.querySelector('#code-content');  
+code.innerHTML = `
+  <table class="table">
+    <thead>
+      <tr>
+        <th colspan="2">Financial Analysis</th>        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Total Months</td>
+        <td>${totalOfMonths}</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td>£${netTotal}</td>
+      </tr>
+      <tr>
+        <td>Average Change</td>
+        <td>${averageChanges}</td>
+      </tr>
+      <tr>
+        <td>Greatest Increase in Profits/Losses</td>
+        <td>${greatestIncrease.month} (£${greatestIncrease.maxIncrease})</td>
+      </tr>
+      <tr>
+        <td class="table-left-corner">Greatest Decrease in Profits/Losses</td>
+        <td class="table-right-corner">${greatestDecrease.month} (£${greatestDecrease.maxDecrease})</td>
+      </tr>
+    </tbody>
+  </table>   
+`  
