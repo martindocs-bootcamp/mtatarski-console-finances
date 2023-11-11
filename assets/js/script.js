@@ -52,14 +52,17 @@ for (let i = 1; i < finances.length; i++) {
   }  
 }
 
-
-
-console.log(totalOfMonths);
-console.log(netTotal);
-// console.log(monthsDifferences);
-// console.log(totalChanges);
-console.log(averageChanges);
-console.log(greatestIncrease, greatestDecrease);
+// Console output 
+const output = `
+  Financial Analysis 
+  ------------------
+  Total Months: ${totalOfMonths} 
+  Total: £${netTotal}
+  Average Change: ${averageChanges}
+  Greatest Increase in Profits/Losses: ${greatestIncrease.month} (£${greatestIncrease.maxIncrease})
+  Greatest Decrease in Profits/Losses: ${greatestDecrease.month} (£${greatestDecrease.maxDecrease})
+`
+console.log(output);
 
 
 // PART.2. Display calculation in the browser
