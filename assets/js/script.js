@@ -19,10 +19,14 @@ for(let i = 0; i < monthsDifferences.length; i++){
   totalChanges += monthsDifferences[i];
 }
 
+const averageChanges = (totalChanges /monthsDifferences.length).toFixed(2);
+
+
 console.log(totalOfMonths);
 console.log(netTotal);
 console.log(monthsDifferences);
 console.log(totalChanges);
+console.log(averageChanges);
 
 
 // PART.2. Display calculation in the browser
