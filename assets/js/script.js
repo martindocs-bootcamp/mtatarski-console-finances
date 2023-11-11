@@ -98,3 +98,16 @@ code.innerHTML = `
     </tbody>
   </table>   
 `  
+
+// Show/hide finacial statement
+document.querySelector('.btn').addEventListener('click', (e) => {  
+  
+  // toggle visibility of the content
+  if(code.style.display === "block"){
+    // e.target.innerText = 'Show Statement';
+    code.style.display = 'none';// hide content    
+  }else{
+    // e.target.innerText = 'Hide Statement';
+    code.style.display = 'block'; // show content
+  }
+})
