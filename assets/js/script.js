@@ -1,3 +1,12 @@
+/**
+ * Author: Marcin Tatarski
+ * Date: 12-11-2023
+ * @license MIT
+ * 
+ * This program uses financial data to find key numbers like total profit/loss and tracks how money changes month-to-month. 
+ * It also identifies the most significant increases and decreases in money over the entire period. 
+ */
+
 // import financial data
 import finances from "../data/data.js";
 
