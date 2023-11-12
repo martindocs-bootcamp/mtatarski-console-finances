@@ -9,7 +9,7 @@ Explore Console Finances, a JavaScript tool designed for quick financial analysi
 ![Console version](./assets/images/console-finances.png)
 *View financial analysis directly in your console.*
 
-![rowser version](./assets/images/browser-finances.png)
+![Browser version](./assets/images/browser-finances.png)
 *Access the same information with a user-friendly interface in your web browser.*
 
 ## How to Use
