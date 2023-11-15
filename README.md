@@ -15,7 +15,7 @@ Explore Console Finances, a JavaScript tool designed for quick financial analysi
 ## How to Use
 
 1. **Visit GitHub Pages:**
-   - Simply navigate to the [GitHub Pages link](https://martindocs.github.io/mtatarski-console-finances) to experience the financial analysis directly in your web browser.
+   - Simply navigate to the [GitHub Pages link](https://martindocs-bootcamp.github.io/mtatarski-console-finances/) to experience the financial analysis directly in your web browser.
 
 2. **Understand the Data:**
    - The data includes dates and profits or losses.
